@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body  data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+    
+      </div>
+
+      <div class="carousel-inner">
+        <!-- navbar -->
+        <nav  id="navbar-example" class="  navbar nav top-0 navbar-expand-lg">
+          <div class="container-fluid   border-bottom">
+            <div class="row col-md-12">
+              <div class="img col-md-3">
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="./images/logo-light.png"
+                    class="w-40 mx-4"
+                    alt=""
+                  />
+                </a>
+
+                <button
+                  class="navbar-toggler ms-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <!-- ul nav -->
+              <div
+                class="collapse col-md-7 navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#about"
+                      >about</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#team"
+                      >team</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#"
+                      >servieces</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#dark"
+                      >workes</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#pricing"
+                      >pricing</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-break active"
+                      aria-current="page"
+                      href="#contact"
+                      >contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- icon nav -->
+              <div class="logo col-md-2 border-start">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="p-2">
+                    <span>
+                      <i class="text-primary fa-brands fa-twitter fa-xl"></i>
+                    </span>
+                  </li>
+                  <li class="p-2">
+                    <span
+                      ><i class="text-primary fa-brands fa-facebook fa-xl"></i
+                    ></span>
+                  </li>
+                  <li class="p-2">
+                    <span
+                      ><i class="text-primary fa-brands fa-instagram fa-xl"></i
+                    ></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+
+        <div  id="home" class="carousel-item active">
+          <div class="iner1 vh-100 py-5 text-center">
+            <div class="py-5">
+              <h1 class="poppins fa-rem text-light fs">
+                Get awesome<span>.</span>
+              </h1>
+              <p class="mb-4 text-light fa-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="btn btn-lg text-light hoverr">Read more</button>
+              <button class="btn btn-outline-light btn-lg">Contact</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="iner2 vh-100 py-5 text-center">
+            <div class="py-5">
+              <h1 class="poppins fa-rem text-light fs">
+                Create With Bezil<span>.</span>
+              </h1>
+              <p class="mb-4 text-light fa-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing
+              </p>
+              <button class="btn btn-lg text-light hoverr">Hireus</button>
+              <button class="btn btn-outline-light btn-lg">Cervieces</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- who we are -->
+    <section id="about"  class="py-3">
+      <div class="container-fluid py-4 text-center col-lg-8 col-md-7 col-sm-12">
+        <h2 class="h6 text-dark">whoo we are</h2>
+
+        <p class="fw-medium fa-1x w-100 mb-5 m-auto fs-6 gray">
+          We are an innovative company. We develop and design
+
+          <span class="fw-bold text-info" id="element"></span>
+
+          costumers around the world. Our clients are some of the most
+          forward-looking companies in the world.
+        </p>
+        <button class="btn btn-outline-dark btn-lg mb-5">Read more</button>
+      </div>
+    </section>
+    <!-- cover & designer -->
+    <section id="team" class="py-5  text-center">
+      <h2 class="h1 fw-bold afteer">Creative Team</h2>
+      <p class="h6 py-2 text-muted">We are digital thinkers</p>
+
+      <div class="d-flex flex-wrap container">
+        <div
+          class="item overflow-hidden col-lg-3 col-md-6 col-sm-12 position-relative p-1"
+        >
+          <img
+            src="./images/team-1.jpg"
+            class="w-100 d-block rounded-3"
+            alt=""
+          />
+          <div
+            class="cover d-flex flex-column justify-content-between top-0 bottom-0 bg-info rounded-3"
+          >
+            <div class="iner p-2">
+              <i class="fa-brands mx-4 fa-facebook fa-xl"></i>
+              <i class="fa-brands mx-4 fa-twitter fa-xl"></i>
+              <i class="fa-brands mx-4 fa-linkedin fa-xl"></i>
+            </div>
+            <div class="iner p-2">
+              <h5>LUKE CAGE</h5>
+              <h6>Founder &#38; CEO</h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item overflow-hidden col-lg-3 col-md-6 col-sm-12 position-relative p-1"
+        >
+          <img
+            src="./images/team-2.jpg"
+            class="w-100 d-block rounded-3"
+            alt=""
+          />
+          <div
+            class="cover d-flex flex-column justify-content-between top-0 bottom-0 bg-info rounded-3"
+          >
+            <div class="iner p-2">
+              <i class="fa-brands mx-4 fa-facebook fa-xl"></i>
+              <i class="fa-brands mx-4 fa-twitter fa-xl"></i>
+              <i class="fa-brands mx-4 fa-linkedin fa-xl"></i>
+            </div>
+            <div class="iner p-2">
+              <h5>JESSICA JONES</h5>
+              <h6>Product Designer</h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item overflow-hidden col-lg-3 col-md-6 col-sm-12 position-relative p-1"
+        >
+          <img
+            src="./images/team-3.jpg"
+            class="w-100 d-block rounded-3"
+            alt=""
+          />
+          <div
+            class="cover d-flex flex-column justify-content-between top-0 bottom-0 bg-info rounded-3"
+          >
+            <div class="iner p-2">
+              <i class="fa-brands mx-4 fa-facebook fa-xl"></i>
+              <i class="fa-brands mx-4 fa-twitter fa-xl"></i>
+              <i class="fa-brands mx-4 fa-linkedin fa-xl"></i>
+            </div>
+            <div class="iner p-2">
+              <h5>MATT MURDOCK</h5>
+              <h6>Lead Developer</h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="item overflow-hidden col-lg-3 col-md-6 col-sm-12 position-relative p-1"
+        >
+          <img
+            src="./images/team-4.jpg"
+            class="w-100 d-block rounded-3"
+            alt=""
+          />
+          <div
+            class="cover d-flex flex-column justify-content-between top-0 bottom-0 bg-info rounded-3"
+          >
+            <div class="iner p-2">
+              <i class="fa-brands mx-4 fa-facebook fa-xl"></i>
+              <i class="fa-brands mx-4 fa-twitter fa-xl"></i>
+              <i class="fa-brands mx-4 fa-linkedin fa-xl"></i>
+            </div>
+            <div class="iner p-2">
+              <h5>CLAIRE TEMPLE</h5>
+              <h6>Sales Manager</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- dark -->
+    <section id="dark"  class="   bg-weety text-white">
+       <div class="demo1  container d-flex justify-content-center my-5">
+        <div class="item text-center col-sm-12 py-3">
+          <dl
+            class="d-flex flex-md-row flex-sm-column m-0 justify-content-around align-content-around col576 poppins text"
+          >
+            <dd>STUNNING DESIGN</dd>
+            <dd>TIME SAVER</dd>
+            <dd>CLEAN CODE</dd>
+            <dd>CUSTOMIZABLE</dd>
+            <dd>PERFECT LAYOUT</dd>
+            <dd>RETINA READY</dd>
+          </dl>
+        </div>
+       </div>
+
+       <div  class="container-fluid  row justify-content-evenly  demo my-5 ">
+        <div class="demo1 col-md-4 col-sm-12   poppins">
+          <h2 class="h1 afteerw">what we do.</h2>
+          <p class="fw-light">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+            ipsam ullam incidunt itaque nemo omnis temporibus totam quibusdam
+            repellat vero, recusandae excepturi dignissimos velit et alias amet,
+            quia facilis perferendis.
+          </p>
+        </div>
+        <div class="demo2 text-white col-md-3     col-sm-6">
+          <ol >
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> Research</li>
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> Opportunity Analysis</li>
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> Consulting</li>
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> Brand Planning</li>
+            <li class="mb-4"><i class="fa-solid fa-circle-check"></i> Customer Support</li>
+          </ol>
+        </div>
+        <div class="demo2 text-white col-md-3      col-sm-6">
+          <ol>
+            <li class="my-2"> <i class="fa-solid fa-circle-check"></i> Logo &#38; Branding </li>
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> Style guides</li>
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> Motion graphics</li>
+            <li class="my-2"><i class="fa-solid fa-circle-check"></i> UX/UI-design</li>
+            <li class="mb-4"><i class="fa-solid fa-circle-check"></i> Social media design </li>
+          </ol>
+        </div>
+       </div>
+
+    </section>
+
+<!-- degree -->
+<section  id="pricing" class="bg-body-secondary   p-3 text-center">
+
+    <h2 class="afteer  fw-bolder">Cheap Prices</h2>
+    <p class="text-muted">We provide the best quality.</p>
+   <div class="container-fluid row    mx-auto ">
+
+       <div class=" col-lg-3 col-sm-6    p-3 text-start   mb-3 ">
+    <div class="p-5 bg-white shadow border">
+      <h4>starter</h4>
+      <h5 class=""> 	&#38; <sub class=" fs50"><sub>9</sub>  </sub>  </h5>
+       <hr class="my-5">
+       <p class="text-muted">Unlimited Connections</p>
+       <p class="text-muted">Full SSL Protection</p>
+       <p class="text-muted">Unlimited Channels</p>
+       <button class="btn btn-secondary text-light hoverr">Sign up</button>
+    </div>
+
+       </div>  
+        <div class="col-lg-3   col-sm-6   p-3 text-start  mb-3 ">
+          <div class="p-5 bg-white shadow border">
+            <h4>silver</h4>
+            <h5 class=""> 	&#38; <sub class=" fs50"><sub>19</sub>  </sub>  </h5>
+             <hr class="my-5">
+             <p class="text-muted">Unlimited Connections</p>
+             <p class="text-muted">Full SSL Protection</p>
+             <p class="text-muted">Unlimited Channels</p>
+             <button class="btn btn-secondary text-light hoverr">Sign up</button>
+          </div>
+     
+        </div>
+  
+        <div class=" col-lg-3 transform2 p-3  col-sm-6    text-start  mb-3 ">
+              <div class="p-5 bg-white shadow border"> 
+            <h4>gold  <span class="ms-5 btn btn-sm btn-info rounded-pill"> best value</span> </h4>
+          <h5 class=" text-info fw-bolder "> 	&#38; <sub class=" fs50"><sub class="h1">29</sub>  </sub>  </h5>
+           <hr class="my-5">
+           <p class="text-muted">Unlimited Connections</p>
+           <p class="text-muted">Full SSL Protection</p>
+           <p class="text-muted">Unlimited Channels</p>
+           <button class="btn btn-secondary text-light hoverr">Sign up</button>
+              </div>
+        </div>
+   
+        <div class=" col-lg-3   col-sm-6    p-3 text-start  mb-3 ">
+          <div class="p-5 bg-white shadow border">
+            <h4>starter</h4>
+            <h5 class=""> 	&#38; <sub class=" fs50"><sub>9</sub>  </sub>  </h5>
+             <hr class="my-5">
+             <p class="text-muted">Unlimited Connections</p>
+             <p class="text-muted">Full SSL Protection</p>
+             <p class="text-muted">Unlimited Channels</p>
+             <button class="btn btn-secondary text-light hoverr">Sign up</button>
+          </div>
+     
+        </div>
+     
+
+    
+   </div>
+
+<!-- crsel -->
+
+<section class=" my-5">
+
+  <div id="carsel1235" class="carousel slide">
+    <div class="item mt-4 py-4">
+          <h5 class="text-muted">HAPPY CUSTOMERS</h5>
+
+    </div>
+ 
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <div class="p-5 ">
+
+        <div class="iner bg-white container border shadow rounded mx-auto position-relative p-5">
+          <img src="./images/testimonial-1.jpg" class="d-block position-absolute translate-middle-x img-center rounded-circle mx-auto " alt="a girl">
+          <h4 class="py-4">maressa mayer</h4>
+          <h6>ceo, yahoo</h6>
+          <p class="text-muted"> sit amet consectetur adipisicing elit. Ut, dolorum.ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iste reprehenderit vel libero. Dolor quos doloribus illum maxime consectetur mollitia!</p>
+        </div>
+
+      </div>
+      </div>
+      <div class="carousel-item ">
+      <div class="p-5 ">
+
+        <div class="iner bg-white container border shadow rounded mx-auto position-relative p-5">
+          <img src="./images/testimonial-2.jpg" class="d-block position-absolute translate-middle-x img-center rounded-circle mx-auto " alt="a girl">
+          <h4 class="py-4">mark zukerberg</h4>
+          <h6>founder,ceo, facebook</h6>
+          <p class="text-muted"> sit amet consectetur adipisicing elit. Ut, dolorum.ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iste reprehenderit vel libero. Dolor quos doloribus illum maxime consectetur mollitia!</p>
+        </div>
+
+      </div>
+      </div>
+   
+    </div>
+
+
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carsel1235" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon text-bg-success " aria-hidden="true"></span>
+      <span class="visually-hidden  ">Previous</span>
+    </button>
+    <button class="carousel-control-next  " type="button" data-bs-target="#carsel1235" data-bs-slide="next">
+      <span class="carousel-control-next-icon text-bg-danger" aria-hidden="true"></span>
+      <span class="visually-hidden">next</span>
+    </button>
+
+
+
+
+    <div class="  position-relative carousel-indicators">
+      <button type="button" data-bs-target="#carsel1235" data-bs-slide-to="0" class=" active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carsel1235" data-bs-slide-to="1"   aria-label="Slide 2"></button>
+    </div>
+  </div>
+
+
+   
+</section>
+
+
+
+
+
+
+
+
+</section>
+<section class="container-fluid  row    ">
+
+  <div class="  p-3 mt-5 col-sm-6    container overflow-hidden">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55257.43110066081!2d31.03346030859178!3d30.048634226934652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585a29f1b324d9%3A0xc5c5525706430b8d!2z2YXYr9mK2YbYqSDYp9mE2LTZitiuINiy2KfZitiv2Iwg2YXYrdin2YHYuNipINin2YTYrNmK2LLYqQ!5e0!3m2!1sar!2seg!4v1716143025628!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div  id="contact" class=" col-sm-6 p-5">
+
+<h2 class="afteerg mb-4 ">Get In Touch</h2>
+<p class="text-muted ">Let's work together.</p>
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">your name</label>
+  <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="eslam serag">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">your email</label>
+  <input type="email" class="form-control form-control-lg" id="exampleFormControlTextarea1" placeholder="eslam@gmail.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput3" class="form-label">phone number</label>
+  <input type="number" class="form-control form-control-lg" id="exampleFormControlInput3" placeholder="01934522486">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea3" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+</div>
+
+  </div>
+
+</section>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- cdn typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "softwares",
+          " apps",
+          " website",
+          "softwares",
+          " apps",
+          " website",
+        ],
+        typeSpeed: 75,
+        // startDelay: 50,
+        loopCount: Infinity,
+        loop: true,
+        backSpeed: 75,
+      });
+    </script>
+  </body>
+</html>
